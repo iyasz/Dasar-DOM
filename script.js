@@ -4,7 +4,7 @@ const btn = document.getElementById("btn");
 const doc1 = document.getElementById("doc");
 const doc2 = document.getElementById("doc2");
 
-document.addEventListener("click", () => {
+btn.addEventListener("click", () => {
   anime.style.color = "red";
   anime.style.transform = "scale(2)";
   anime.style.transition = "2s";
@@ -12,3 +12,5 @@ document.addEventListener("click", () => {
   anime.innerHTML = "SALAH";
   doc2.innerHTML = "<h1>APABILA</h1>";
 });
+
+doc1.setAttribute("name", "controller");
