@@ -14,7 +14,7 @@ btn.addEventListener("click", () => {
 });
 
 doc1.setAttribute("name", "controller");
-
+// 2
 const a = document.getElementById("a");
 const elemen = document.createElement("h1");
 const textBaru = document.createTextNode("Kamu Keren");
@@ -22,3 +22,8 @@ const textBaru = document.createTextNode("Kamu Keren");
 elemen.appendChild(textBaru);
 
 a.appendChild(elemen);
+
+//3
+btn.addEventListener("click", () => {
+  a.appendChild(elemen);
+});
