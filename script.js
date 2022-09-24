@@ -14,3 +14,11 @@ btn.addEventListener("click", () => {
 });
 
 doc1.setAttribute("name", "controller");
+
+const a = document.getElementById("a");
+const elemen = document.createElement("h1");
+const textBaru = document.createTextNode("Kamu Keren");
+
+elemen.appendChild(textBaru);
+
+a.appendChild(elemen);
