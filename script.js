@@ -24,6 +24,11 @@ elemen.appendChild(textBaru);
 a.appendChild(elemen);
 
 //3
-btn.addEventListener("click", () => {
+const btn2 = document.getElementById("btn2");
+btn2.addEventListener("click", () => {
+  const newH = document.createElement("h1");
+  const newText = document.createTextNode("Kamu Sugoi");
+  newH.appendChild(newText);
+
   a.appendChild(elemen);
 });
