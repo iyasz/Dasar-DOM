@@ -34,3 +34,6 @@ btn2.addEventListener("click", () => {
 
   b.appendChild(newH);
 });
+
+const nggih = document.getElementById("ng");
+const c = document.getElementById("c");
