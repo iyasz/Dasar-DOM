@@ -37,3 +37,8 @@ btn2.addEventListener("click", () => {
 
 const nggih = document.getElementById("ng");
 const c = document.getElementById("c");
+const ol = document.getElementById("ol");
+const hd = document.createElement("li");
+const dc = document.createTextNode("Keren");
+
+hd.appendChild(dc);
