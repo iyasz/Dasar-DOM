@@ -42,3 +42,5 @@ const hd = document.createElement("li");
 const dc = document.createTextNode("Keren");
 
 hd.appendChild(dc);
+
+ol.insertBefore(hd, nggih);
